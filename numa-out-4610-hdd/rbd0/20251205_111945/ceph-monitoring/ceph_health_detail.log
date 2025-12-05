@@ -1,0 +1,90 @@
+======================================== [3] 2025-12-05 11:19:59
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [6] 2025-12-05 11:20:20
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [9] 2025-12-05 11:20:42
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [12] 2025-12-05 11:21:03
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [15] 2025-12-05 11:21:25
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [18] 2025-12-05 11:21:47
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [21] 2025-12-05 11:22:08
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [24] 2025-12-05 11:22:29
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [27] 2025-12-05 11:22:51
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [30] 2025-12-05 11:23:12
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [33] 2025-12-05 11:23:33
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [36] 2025-12-05 11:23:54
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [39] 2025-12-05 11:24:15
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [42] 2025-12-05 11:24:37
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [45] 2025-12-05 11:24:58
+=== Ceph Health Detail ===
+HEALTH_WARN Reduced data availability: 1 pg peering
+[WRN] PG_AVAILABILITY: Reduced data availability: 1 pg peering
+    pg 2.187 is stuck peering for 9m, current state creating+peering, last acting [24,31,44]
+
+======================================== [48] 2025-12-05 11:25:18
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [51] 2025-12-05 11:25:39
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [54] 2025-12-05 11:25:59
+=== Ceph Health Detail ===
+HEALTH_WARN Reduced data availability: 1 pg peering; Degraded data redundancy: 5/39150 objects degraded (0.013%), 1 pg degraded
+[WRN] PG_AVAILABILITY: Reduced data availability: 1 pg peering
+    pg 2.414 is stuck peering for 62s, current state remapped+peering, last acting [32,43]
+[WRN] PG_DEGRADED: Degraded data redundancy: 5/39150 objects degraded (0.013%), 1 pg degraded
+    pg 2.3b3 is active+recovery_wait+undersized+degraded+remapped, acting [17,42]
+
+======================================== [57] 2025-12-05 11:26:20
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [60] 2025-12-05 11:26:40
+=== Ceph Health Detail ===
+HEALTH_OK
+
+======================================== [63] 2025-12-05 11:27:01
+=== Ceph Health Detail ===
+HEALTH_OK
+

@@ -1,0 +1,1113 @@
+======================================== [3] 2025-12-05 11:32:51
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [6] 2025-12-05 11:33:12
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [9] 2025-12-05 11:33:34
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [12] 2025-12-05 11:33:55
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [15] 2025-12-05 11:34:16
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [18] 2025-12-05 11:34:38
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [21] 2025-12-05 11:34:59
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [24] 2025-12-05 11:35:20
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [27] 2025-12-05 11:35:42
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [30] 2025-12-05 11:36:03
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [33] 2025-12-05 11:36:25
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [36] 2025-12-05 11:36:46
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [39] 2025-12-05 11:37:08
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [42] 2025-12-05 11:37:29
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [45] 2025-12-05 11:37:50
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [48] 2025-12-05 11:38:11
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [51] 2025-12-05 11:38:31
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [54] 2025-12-05 11:38:52
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [57] 2025-12-05 11:39:12
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [60] 2025-12-05 11:39:33
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+
+======================================== [63] 2025-12-05 11:39:53
+=== Kernel I/O Errors (last 50 lines) ===
+[Thu Dec  4 19:38:05 2025] scsi 0:0:6:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata2: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:7:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:8:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:9:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:0:10:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] ata9: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] scsi 0:0:11:0: Direct-Access     ATA      ST16000NM000J-2T SN02 PQ: 0 ANSI: 6
+[Thu Dec  4 19:38:06 2025] scsi 0:2:0:0: Direct-Access     DELL     PERC H730 Mini   4.30 PQ: 0 ANSI: 5
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: Attached scsi generic sg1 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: Attached scsi generic sg2 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: Attached scsi generic sg3 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: Attached scsi generic sg4 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: Attached scsi generic sg5 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: Attached scsi generic sg6 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: Attached scsi generic sg7 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: Attached scsi generic sg8 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: Attached scsi generic sg9 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: Attached scsi generic sg10 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: Attached scsi generic sg11 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: Attached scsi generic sg12 type 0
+[Thu Dec  4 19:38:06 2025] sd 0:2:0:0: [sdm] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:1:0: [sdb] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:0:0: [sda] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] ata10: SATA link down (SStatus 0 SControl 300)
+[Thu Dec  4 19:38:06 2025] sd 0:0:7:0: [sdh] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:2:0: [sdc] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:4:0: [sde] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:6:0: [sdg] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:8:0: [sdi] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:3:0: [sdd] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:9:0: [sdj] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:11:0: [sdl] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:5:0: [sdf] Attached SCSI disk
+[Thu Dec  4 19:38:06 2025] sd 0:0:10:0: [sdk] Attached SCSI disk
+[Thu Dec  4 19:38:12 2025] EXT4-fs (sdm2): mounted filesystem cf4a3c40-40f8-4d93-bdf6-a98b34d249c4 ro with ordered data mode. Quota mode: none.
+[Thu Dec  4 19:38:12 2025] systemd[1]: Configuration file /etc/systemd/system/kubelet.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Starting modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics...
+[Thu Dec  4 19:38:13 2025] systemd[1]: modprobe@nvme_fabrics.service: Deactivated successfully.
+[Thu Dec  4 19:38:13 2025] systemd[1]: Finished modprobe@nvme_fabrics.service - Load Kernel Module nvme_fabrics.
+[Thu Dec  4 19:38:13 2025] systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+[Thu Dec  4 19:38:13 2025] ipmi_si: Trying SMBIOS-specified kcs state machine at i/o address 0xca8, slave address 0x20, irq 10
+[Thu Dec  4 19:38:15 2025] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[Thu Dec  4 19:38:15 2025] power_meter ACPI000D:00: Waiting for ACPI IPMI timeout
+[Thu Dec  4 19:38:15 2025] ACPI Error: AE_NOT_EXIST, Returned by Handler for [IPMI] (20230628/evregion-301)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Region IPMI (ID=7) has no handler (20230628/exfldio-261)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._GHL due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI Error: Aborting method \_SB.PMI0._PMC due to previous error (AE_NOT_EXIST) (20230628/psparse-529)
+[Thu Dec  4 19:38:15 2025] ACPI: \_SB_.PMI0: _PMC evaluation failed: AE_NOT_EXIST
+

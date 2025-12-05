@@ -1,0 +1,1440 @@
+========================================
+Ceph 性能监控启动
+开始时间: 2025-12-04 17:17:09
+输出目录: /home/ubuntu/intel-900p-hdd/rbd0/20251204_171709/ceph-monitoring
+监控间隔: 5s
+========================================
+✓ iostat 监控已启动 (PID: 2198475)
+======================================== [1] 2025-12-04 17:17:10
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+
+======================================== [2] 2025-12-04 17:17:16
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   6.8 MiB/s rd, 2.9 MiB/s wr, 1.74k op/s rd, 753 op/s wr
+ 
+
+======================================== [3] 2025-12-04 17:17:23
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   59 MiB/s rd, 25 MiB/s wr, 15.02k op/s rd, 6.46k op/s wr
+ 
+
+======================================== [4] 2025-12-04 17:17:31
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   75 MiB/s rd, 32 MiB/s wr, 19.36k op/s rd, 8.29k op/s wr
+ 
+
+======================================== [5] 2025-12-04 17:17:38
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   82 MiB/s rd, 35 MiB/s wr, 21.10k op/s rd, 9.05k op/s wr
+ 
+
+======================================== [6] 2025-12-04 17:17:45
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2648 active+clean
+             1    active+clean+scrubbing+deep
+ 
+  io:
+    client:   83 MiB/s rd, 36 MiB/s wr, 21.29k op/s rd, 9.13k op/s wr
+ 
+
+======================================== [7] 2025-12-04 17:17:52
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2648 active+clean
+             1    active+clean+scrubbing+deep
+ 
+  io:
+    client:   67 MiB/s rd, 29 MiB/s wr, 17.16k op/s rd, 7.40k op/s wr
+ 
+
+======================================== [8] 2025-12-04 17:17:59
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   823 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   66 MiB/s rd, 29 MiB/s wr, 16.97k op/s rd, 7.30k op/s wr
+ 
+
+======================================== [9] 2025-12-04 17:18:06
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   824 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   72 MiB/s rd, 31 MiB/s wr, 18.46k op/s rd, 7.96k op/s wr
+ 
+
+======================================== [10] 2025-12-04 17:18:13
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   824 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   75 MiB/s rd, 32 MiB/s wr, 19.32k op/s rd, 8.31k op/s wr
+ 
+
+======================================== [11] 2025-12-04 17:18:20
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   824 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   73 MiB/s rd, 31 MiB/s wr, 18.71k op/s rd, 8.03k op/s wr
+ 
+
+======================================== [12] 2025-12-04 17:18:27
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   824 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   76 MiB/s rd, 33 MiB/s wr, 19.47k op/s rd, 8.36k op/s wr
+ 
+
+======================================== [13] 2025-12-04 17:18:35
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   824 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   79 MiB/s rd, 34 MiB/s wr, 20.18k op/s rd, 8.68k op/s wr
+ 
+
+======================================== [14] 2025-12-04 17:18:42
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   824 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   85 MiB/s rd, 37 MiB/s wr, 21.82k op/s rd, 9.36k op/s wr
+ 
+
+======================================== [15] 2025-12-04 17:18:49
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   825 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   83 MiB/s rd, 36 MiB/s wr, 21.40k op/s rd, 9.15k op/s wr
+ 
+
+======================================== [16] 2025-12-04 17:18:56
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   825 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   82 MiB/s rd, 35 MiB/s wr, 20.95k op/s rd, 8.96k op/s wr
+ 
+
+======================================== [17] 2025-12-04 17:19:03
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   825 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   85 MiB/s rd, 37 MiB/s wr, 21.87k op/s rd, 9.36k op/s wr
+ 
+
+======================================== [18] 2025-12-04 17:19:10
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   825 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   79 MiB/s rd, 34 MiB/s wr, 20.32k op/s rd, 8.74k op/s wr
+ 
+
+======================================== [19] 2025-12-04 17:19:18
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   825 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2648 active+clean
+             1    active+clean+scrubbing+deep
+ 
+  io:
+    client:   70 MiB/s rd, 30 MiB/s wr, 18.11k op/s rd, 7.80k op/s wr
+ 
+
+======================================== [20] 2025-12-04 17:19:24
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   825 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   62 MiB/s rd, 27 MiB/s wr, 15.97k op/s rd, 6.90k op/s wr
+ 
+
+======================================== [21] 2025-12-04 17:19:31
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   826 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   73 MiB/s rd, 31 MiB/s wr, 18.72k op/s rd, 8.03k op/s wr
+ 
+
+======================================== [22] 2025-12-04 17:19:39
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   826 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   83 MiB/s rd, 36 MiB/s wr, 21.36k op/s rd, 9.17k op/s wr
+ 
+
+======================================== [23] 2025-12-04 17:19:46
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   826 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   79 MiB/s rd, 34 MiB/s wr, 20.31k op/s rd, 8.66k op/s wr
+ 
+
+======================================== [24] 2025-12-04 17:19:53
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   826 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   82 MiB/s rd, 35 MiB/s wr, 20.92k op/s rd, 8.94k op/s wr
+ 
+
+======================================== [25] 2025-12-04 17:20:00
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   826 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   80 MiB/s rd, 34 MiB/s wr, 20.57k op/s rd, 8.81k op/s wr
+ 
+
+======================================== [26] 2025-12-04 17:20:07
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   827 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   81 MiB/s rd, 35 MiB/s wr, 20.66k op/s rd, 8.83k op/s wr
+ 
+
+======================================== [27] 2025-12-04 17:20:14
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   827 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   83 MiB/s rd, 35 MiB/s wr, 21.24k op/s rd, 9.08k op/s wr
+ 
+
+======================================== [28] 2025-12-04 17:20:22
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   827 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   83 MiB/s rd, 36 MiB/s wr, 21.34k op/s rd, 9.12k op/s wr
+ 
+
+======================================== [29] 2025-12-04 17:20:29
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   827 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   83 MiB/s rd, 36 MiB/s wr, 21.35k op/s rd, 9.18k op/s wr
+ 
+
+======================================== [30] 2025-12-04 17:20:36
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   827 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2648 active+clean
+             1    active+clean+scrubbing+deep
+ 
+  io:
+    client:   80 MiB/s rd, 34 MiB/s wr, 20.43k op/s rd, 8.76k op/s wr
+ 
+
+======================================== [31] 2025-12-04 17:20:43
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   828 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2648 active+clean
+             1    active+clean+scrubbing+deep
+ 
+  io:
+    client:   74 MiB/s rd, 32 MiB/s wr, 18.93k op/s rd, 8.10k op/s wr
+ 
+
+======================================== [32] 2025-12-04 17:20:50
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   828 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2648 active+clean
+             1    active+clean+scrubbing+deep
+ 
+  io:
+    client:   58 MiB/s rd, 25 MiB/s wr, 14.91k op/s rd, 6.37k op/s wr
+ 
+
+======================================== [33] 2025-12-04 17:20:57
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   828 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   64 MiB/s rd, 27 MiB/s wr, 16.36k op/s rd, 6.97k op/s wr
+ 
+
+======================================== [34] 2025-12-04 17:21:04
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   828 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   80 MiB/s rd, 34 MiB/s wr, 20.44k op/s rd, 8.71k op/s wr
+ 
+
+======================================== [35] 2025-12-04 17:21:11
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   828 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   80 MiB/s rd, 34 MiB/s wr, 20.59k op/s rd, 8.80k op/s wr
+ 
+
+======================================== [36] 2025-12-04 17:21:18
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   828 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   84 MiB/s rd, 36 MiB/s wr, 21.47k op/s rd, 9.18k op/s wr
+ 
+
+======================================== [37] 2025-12-04 17:21:26
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   829 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   80 MiB/s rd, 34 MiB/s wr, 20.47k op/s rd, 8.76k op/s wr
+ 
+
+======================================== [38] 2025-12-04 17:21:33
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   829 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   84 MiB/s rd, 36 MiB/s wr, 21.50k op/s rd, 9.20k op/s wr
+ 
+
+======================================== [39] 2025-12-04 17:21:40
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   829 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   84 MiB/s rd, 36 MiB/s wr, 21.62k op/s rd, 9.27k op/s wr
+ 
+
+======================================== [40] 2025-12-04 17:21:47
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   829 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   81 MiB/s rd, 35 MiB/s wr, 20.84k op/s rd, 8.97k op/s wr
+ 
+
+======================================== [41] 2025-12-04 17:21:54
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   830 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   87 MiB/s rd, 37 MiB/s wr, 22.32k op/s rd, 9.60k op/s wr
+ 
+
+======================================== [42] 2025-12-04 17:22:01
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   830 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   79 MiB/s rd, 34 MiB/s wr, 20.28k op/s rd, 8.66k op/s wr
+ 
+
+======================================== [43] 2025-12-04 17:22:09
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   830 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   81 MiB/s rd, 35 MiB/s wr, 20.81k op/s rd, 8.89k op/s wr
+ 
+
+======================================== [44] 2025-12-04 17:22:16
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   830 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   79 MiB/s rd, 34 MiB/s wr, 20.24k op/s rd, 8.64k op/s wr
+ 
+
+======================================== [45] 2025-12-04 17:22:22
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   76 MiB/s rd, 33 MiB/s wr, 19.58k op/s rd, 8.38k op/s wr
+ 
+
+======================================== [46] 2025-12-04 17:22:30
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   53 MiB/s rd, 23 MiB/s wr, 13.72k op/s rd, 5.85k op/s wr
+ 
+
+======================================== [47] 2025-12-04 17:22:36
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   12 MiB/s rd, 4.7 MiB/s wr, 3.17k op/s rd, 1.20k op/s wr
+ 
+
+======================================== [48] 2025-12-04 17:22:43
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.4 MiB/s rd, 371 op/s rd, 0 op/s wr
+ 
+
+======================================== [49] 2025-12-04 17:22:50
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.4 MiB/s rd, 510 B/s wr, 362 op/s rd, 0 op/s wr
+ 
+
+======================================== [50] 2025-12-04 17:22:57
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.3 MiB/s rd, 510 B/s wr, 341 op/s rd, 0 op/s wr
+ 
+
+======================================== [51] 2025-12-04 17:23:03
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.4 MiB/s rd, 368 op/s rd, 0 op/s wr
+ 
+
+======================================== [52] 2025-12-04 17:23:10
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.4 MiB/s rd, 354 op/s rd, 0 op/s wr
+ 
+
+======================================== [53] 2025-12-04 17:23:17
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.3 MiB/s rd, 343 op/s rd, 0 op/s wr
+ 
+
+======================================== [54] 2025-12-04 17:23:24
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.4 MiB/s rd, 510 B/s wr, 365 op/s rd, 0 op/s wr
+ 
+
+======================================== [55] 2025-12-04 17:23:31
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.3 MiB/s rd, 336 op/s rd, 0 op/s wr
+ 
+
+======================================== [56] 2025-12-04 17:23:37
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   1.1 MiB/s rd, 371 KiB/s wr, 289 op/s rd, 92 op/s wr
+ 
+
+======================================== [57] 2025-12-04 17:23:44
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   496 KiB/s rd, 1.7 MiB/s wr, 124 op/s rd, 443 op/s wr
+ 
+
+======================================== [58] 2025-12-04 17:23:51
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   255 B/s rd, 2.3 MiB/s wr, 0 op/s rd, 580 op/s wr
+ 
+
+======================================== [59] 2025-12-04 17:23:58
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   255 B/s rd, 2.2 MiB/s wr, 0 op/s rd, 572 op/s wr
+ 
+
+======================================== [60] 2025-12-04 17:24:04
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   2.3 MiB/s wr, 0 op/s rd, 591 op/s wr
+ 
+
+======================================== [61] 2025-12-04 17:24:12
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   2.3 MiB/s wr, 0 op/s rd, 581 op/s wr
+ 
+
+======================================== [62] 2025-12-04 17:24:18
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   2.2 MiB/s wr, 0 op/s rd, 572 op/s wr
+ 
+
+======================================== [63] 2025-12-04 17:24:25
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   255 B/s rd, 2.2 MiB/s wr, 0 op/s rd, 561 op/s wr
+ 
+
+======================================== [64] 2025-12-04 17:24:32
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   2.1 MiB/s wr, 0 op/s rd, 544 op/s wr
+ 
+
+======================================== [65] 2025-12-04 17:24:39
+=== Ceph Status ===
+  cluster:
+    id:     c4de1f44-fd6e-4c8e-a087-60bfc397b47a
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 20h)
+    mgr: b(active, since 30h), standbys: a
+    osd: 45 osds: 45 up (since 20h), 45 in (since 20h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 13.18k objects, 50 GiB
+    usage:   831 GiB used, 535 TiB / 536 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   2.4 MiB/s wr, 0 op/s rd, 603 op/s wr
+ 
+

@@ -1,0 +1,257 @@
+========================================
+Ceph 性能监控启动
+开始时间: 2025-12-02 17:32:05
+输出目录: /home/ubuntu/intel-4610-nvme/rbd1/20251202_173205/ceph-monitoring
+监控间隔: 5s
+========================================
+✓ iostat 监控已启动 (PID: 1107393)
+======================================== [1] 2025-12-02 17:32:05
+=== Ceph Status ===
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 2h)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 6.78k objects, 25 GiB
+    usage:   4.4 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   255 B/s rd, 510 B/s wr, 0 op/s rd, 0 op/s wr
+ 
+
+======================================== [2] 2025-12-02 17:32:12
+=== Ceph Status ===
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 2h)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 6.82k objects, 25 GiB
+    usage:   4.4 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   255 B/s rd, 13 MiB/s wr, 0 op/s rd, 13 op/s wr
+ 
+
+======================================== [3] 2025-12-02 17:32:19
+=== Ceph Status ===
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 2h)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 7.44k objects, 28 GiB
+    usage:   4.4 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   530 KiB/s rd, 219 MiB/s wr, 397 op/s rd, 332 op/s wr
+ 
+
+======================================== [4] 2025-12-02 17:33:12
+=== Ceph Status ===
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 2h)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 8.52k objects, 32 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   548 KiB/s rd, 126 MiB/s wr, 426 op/s rd, 222 op/s wr
+ 
+
+======================================== [5] 2025-12-02 17:34:33
+=== Ceph Status ===
+2025-12-02T17:34:36.940+0800 bd278bfc6c0 -1 monclient: get_monmap_and_config failed to get config
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 11s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 9.47k objects, 36 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   861 KiB/s rd, 172 MiB/s wr, 645 op/s rd, 248 op/s wr
+ 
+
+======================================== [6] 2025-12-02 17:34:49
+=== Ceph Status ===
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 45s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 10.21k objects, 38 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   323 KiB/s rd, 56 MiB/s wr, 242 op/s rd, 87 op/s wr
+ 
+
+======================================== [7] 2025-12-02 17:35:48
+=== Ceph Status ===
+2025-12-02T17:35:51.167+0800 cc1dd0a86c0 -1 monclient: get_monmap_and_config failed to get config
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 13s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 10.74k objects, 40 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   404 KiB/s rd, 94 MiB/s wr, 303 op/s rd, 134 op/s wr
+ 
+
+======================================== [8] 2025-12-02 17:36:14
+=== Ceph Status ===
+2025-12-02T17:36:17.528+0800 58d584a86c0 -1 monclient: get_monmap_and_config failed to get config
+2025-12-02T17:36:20.529+0800 58d584a86c0 -1 monclient: get_monmap_and_config failed to get config
+2025-12-02T17:36:23.531+0800 58d584a86c0 -1 monclient: get_monmap_and_config failed to get config
+2025-12-02T17:36:26.533+0800 58d584a86c0 -1 monclient: get_monmap_and_config failed to get config
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 46s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 11.18k objects, 42 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   453 KiB/s rd, 79 MiB/s wr, 339 op/s rd, 122 op/s wr
+ 
+
+======================================== [9] 2025-12-02 17:36:39
+=== Ceph Status ===
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 16s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 11.96k objects, 45 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   715 KiB/s rd, 188 MiB/s wr, 536 op/s rd, 275 op/s wr
+ 
+
+======================================== [10] 2025-12-02 17:36:57
+=== Ceph Status ===
+2025-12-02T17:37:00.536+0800 85d795fc6c0 -1 monclient: get_monmap_and_config failed to get config
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 0.338807s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 12.15k objects, 46 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   301 KiB/s rd, 106 MiB/s wr, 225 op/s rd, 139 op/s wr
+ 
+
+======================================== [11] 2025-12-02 17:37:18
+=== Ceph Status ===
+2025-12-02T17:37:22.692+0800 d627f2a86c0 -1 monclient: get_monmap_and_config failed to get config
+  cluster:
+    id:     158a6587-e8bb-44fa-b840-badd3eb6a0d4
+    health: HEALTH_OK
+ 
+  services:
+    mon: 3 daemons, quorum a,b,c (age 3s)
+    mgr: a(active, since 23h), standbys: b
+    osd: 45 osds: 45 up (since 23h), 45 in (since 23h)
+    rgw: 3 daemons active (3 hosts, 1 zones)
+ 
+  data:
+    pools:   11 pools, 2649 pgs
+    objects: 12.20k objects, 46 GiB
+    usage:   4.5 TiB used, 535 TiB / 539 TiB avail
+    pgs:     2649 active+clean
+ 
+  io:
+    client:   301 KiB/s rd, 86 MiB/s wr, 225 op/s rd, 119 op/s wr
+ 
+

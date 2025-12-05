@@ -1,0 +1,60 @@
+======================================== [2] 2025-12-02 17:32:12
+=== Network Statistics ===
+    20 outgoing packets dropped
+    5 dropped because of missing route
+    3614 segments retransmitted
+    0 packet receive errors
+    0 receive buffer errors
+    0 send buffer errors
+    3 SYNs to LISTEN sockets dropped
+    98 fast retransmits
+    12 retransmits in slow start
+
+======================================== [4] 2025-12-02 17:33:12
+=== Network Statistics ===
+    20 outgoing packets dropped
+    5 dropped because of missing route
+    3629 segments retransmitted
+    0 packet receive errors
+    0 receive buffer errors
+    0 send buffer errors
+    3 SYNs to LISTEN sockets dropped
+    100 fast retransmits
+    12 retransmits in slow start
+
+======================================== [6] 2025-12-02 17:34:49
+=== Network Statistics ===
+    20 outgoing packets dropped
+    5 dropped because of missing route
+    3658 segments retransmitted
+    0 packet receive errors
+    0 receive buffer errors
+    0 send buffer errors
+    3 SYNs to LISTEN sockets dropped
+    116 fast retransmits
+    12 retransmits in slow start
+
+======================================== [8] 2025-12-02 17:36:14
+=== Network Statistics ===
+    20 outgoing packets dropped
+    5 dropped because of missing route
+    3725 segments retransmitted
+    0 packet receive errors
+    0 receive buffer errors
+    0 send buffer errors
+    3 SYNs to LISTEN sockets dropped
+    170 fast retransmits
+    12 retransmits in slow start
+
+======================================== [10] 2025-12-02 17:36:57
+=== Network Statistics ===
+    20 outgoing packets dropped
+    5 dropped because of missing route
+    3729 segments retransmitted
+    0 packet receive errors
+    0 receive buffer errors
+    0 send buffer errors
+    3 SYNs to LISTEN sockets dropped
+    171 fast retransmits
+    12 retransmits in slow start
+

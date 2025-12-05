@@ -1,0 +1,254 @@
+======================================== [1] 2025-12-03 11:35:38
+=== OSD Disk Usage ===
+ID  CLASS  WEIGHT    REWEIGHT  SIZE     RAW USE  DATA     OMAP    META     AVAIL    %USE  VAR   PGS  STATUS
+ 9    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  176      up
+12    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  183      up
+15    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  181      up
+19    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  178      up
+22    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  183      up
+25    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  173      up
+28    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  173      up
+31    hdd  14.57399   1.00000   15 TiB   22 GiB  5.4 MiB   1 KiB  102 MiB   15 TiB  0.15  1.02  182      up
+34    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  174      up
+37    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  181      up
+41    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  170      up
+44    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+ 0   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+ 3   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 6   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+10    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  180      up
+13    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+16    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+18    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  175      up
+21    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  180      up
+24    hdd  14.57399   1.00000   15 TiB   22 GiB  5.6 MiB   1 KiB   92 MiB   15 TiB  0.15  1.02  181      up
+27    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  178      up
+30    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  175      up
+33    hdd  14.57399   1.00000   15 TiB   22 GiB  5.1 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  183      up
+36    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  174      up
+40    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+43    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  177      up
+ 1   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 4   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 7   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+11    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  179      up
+14    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  183      up
+17    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  179      up
+20    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  180      up
+23    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  180      up
+26    hdd  14.57399   1.00000   15 TiB   22 GiB  5.0 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  175      up
+29    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  185      up
+32    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+35    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  171      up
+38    hdd  14.57399   1.00000   15 TiB   22 GiB  5.4 MiB   1 KiB  102 MiB   15 TiB  0.15  1.02  183      up
+39    hdd  14.57399   1.00000   15 TiB   22 GiB  4.9 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  171      up
+42    hdd  14.57399   1.00000   15 TiB   22 GiB  4.8 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  181      up
+ 2   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 5   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  174      up
+ 8   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  166      up
+                        TOTAL  536 TiB  783 GiB  222 MiB  70 KiB  3.2 GiB  535 TiB  0.14                   
+MIN/MAX VAR: 0.02/1.02  STDDEV: 0.06
+
+======================================== [2] 2025-12-03 11:35:45
+=== OSD Disk Usage ===
+ID  CLASS  WEIGHT    REWEIGHT  SIZE     RAW USE  DATA     OMAP    META     AVAIL    %USE  VAR   PGS  STATUS
+ 9    hdd  14.57399   1.00000   15 TiB   22 GiB  425 MiB   1 KiB  115 MiB   15 TiB  0.15  1.02  176      up
+12    hdd  14.57399   1.00000   15 TiB   22 GiB  461 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  183      up
+15    hdd  14.57399   1.00000   15 TiB   22 GiB  469 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  181      up
+19    hdd  14.57399   1.00000   15 TiB   22 GiB  473 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  178      up
+22    hdd  14.57399   1.00000   15 TiB   22 GiB  489 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  183      up
+25    hdd  14.57399   1.00000   15 TiB   22 GiB  453 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  173      up
+28    hdd  14.57399   1.00000   15 TiB   22 GiB  477 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  173      up
+31    hdd  14.57399   1.00000   15 TiB   22 GiB  530 MiB   1 KiB   92 MiB   15 TiB  0.15  1.02  182      up
+34    hdd  14.57399   1.00000   15 TiB   22 GiB  477 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  174      up
+37    hdd  14.57399   1.00000   15 TiB   22 GiB  433 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  181      up
+41    hdd  14.57399   1.00000   15 TiB   22 GiB  433 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  170      up
+44    hdd  14.57399   1.00000   15 TiB   22 GiB  573 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+ 0   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+ 3   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 6   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+10    hdd  14.57399   1.00000   15 TiB   22 GiB  413 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  180      up
+13    hdd  14.57399   1.00000   15 TiB   22 GiB  445 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+16    hdd  14.57399   1.00000   15 TiB   22 GiB  485 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+18    hdd  14.57399   1.00000   15 TiB   22 GiB  497 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  175      up
+21    hdd  14.57399   1.00000   15 TiB   22 GiB  457 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  180      up
+24    hdd  14.57399   1.00000   15 TiB   22 GiB  462 MiB   1 KiB  138 MiB   15 TiB  0.15  1.02  181      up
+27    hdd  14.57399   1.00000   15 TiB   22 GiB  501 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  178      up
+30    hdd  14.57399   1.00000   15 TiB   22 GiB  485 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  175      up
+33    hdd  14.57399   1.00000   15 TiB   22 GiB  509 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  183      up
+36    hdd  14.57399   1.00000   15 TiB   22 GiB  477 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  174      up
+40    hdd  14.57399   1.00000   15 TiB   22 GiB  449 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+43    hdd  14.57399   1.00000   15 TiB   22 GiB  485 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  177      up
+ 1   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 4   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 7   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+11    hdd  14.57399   1.00000   15 TiB   22 GiB  441 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  179      up
+14    hdd  14.57399   1.00000   15 TiB   22 GiB  444 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  183      up
+17    hdd  14.57399   1.00000   15 TiB   22 GiB  433 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  179      up
+20    hdd  14.57399   1.00000   15 TiB   22 GiB  510 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  180      up
+23    hdd  14.57399   1.00000   15 TiB   22 GiB  541 MiB   1 KiB  115 MiB   15 TiB  0.15  1.02  180      up
+26    hdd  14.57399   1.00000   15 TiB   22 GiB  473 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  175      up
+29    hdd  14.57399   1.00000   15 TiB   22 GiB  405 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  185      up
+32    hdd  14.57399   1.00000   15 TiB   22 GiB  469 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+35    hdd  14.57399   1.00000   15 TiB   22 GiB  417 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  171      up
+38    hdd  14.57399   1.00000   15 TiB   22 GiB  489 MiB   1 KiB  102 MiB   15 TiB  0.15  1.02  183      up
+39    hdd  14.57399   1.00000   15 TiB   22 GiB  461 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  171      up
+42    hdd  14.57399   1.00000   15 TiB   22 GiB  505 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  181      up
+ 2   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 5   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  174      up
+ 8   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  166      up
+                        TOTAL  536 TiB  799 GiB   17 GiB  70 KiB  3.3 GiB  535 TiB  0.15                   
+MIN/MAX VAR: 0.02/1.02  STDDEV: 0.06
+
+======================================== [3] 2025-12-03 11:36:33
+=== OSD Disk Usage ===
+ID  CLASS  WEIGHT    REWEIGHT  SIZE     RAW USE  DATA      OMAP    META     AVAIL    %USE  VAR   PGS  STATUS
+ 9    hdd  14.57399   1.00000   15 TiB   23 GiB   957 MiB   1 KiB  151 MiB   15 TiB  0.15  1.02  176      up
+12    hdd  14.57399   1.00000   15 TiB   23 GiB  1017 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  183      up
+15    hdd  14.57399   1.00000   15 TiB   23 GiB   995 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  181      up
+19    hdd  14.57399   1.00000   15 TiB   23 GiB   981 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  178      up
+22    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  183      up
+25    hdd  14.57399   1.00000   15 TiB   23 GiB   971 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  173      up
+28    hdd  14.57399   1.00000   15 TiB   23 GiB   957 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  173      up
+31    hdd  14.57399   1.00000   15 TiB   23 GiB   1.1 GiB   1 KiB   92 MiB   15 TiB  0.15  1.03  182      up
+34    hdd  14.57399   1.00000   15 TiB   23 GiB  1005 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  174      up
+37    hdd  14.57399   1.00000   15 TiB   23 GiB  1009 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  181      up
+41    hdd  14.57399   1.00000   15 TiB   23 GiB   973 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  170      up
+44    hdd  14.57399   1.00000   15 TiB   23 GiB   1.1 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  182      up
+ 0   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+ 3   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 6   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+10    hdd  14.57399   1.00000   15 TiB   23 GiB   977 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  180      up
+13    hdd  14.57399   1.00000   15 TiB   23 GiB  1021 MiB   1 KiB   89 MiB   15 TiB  0.15  1.02  182      up
+16    hdd  14.57399   1.00000   15 TiB   23 GiB   1.1 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  182      up
+18    hdd  14.57399   1.00000   15 TiB   23 GiB  1001 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  175      up
+21    hdd  14.57399   1.00000   15 TiB   23 GiB   973 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  180      up
+24    hdd  14.57399   1.00000   15 TiB   23 GiB   978 MiB   1 KiB  192 MiB   15 TiB  0.15  1.02  181      up
+27    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  178      up
+30    hdd  14.57399   1.00000   15 TiB   23 GiB  1017 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  175      up
+33    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  183      up
+36    hdd  14.57399   1.00000   15 TiB   23 GiB  1001 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  174      up
+40    hdd  14.57399   1.00000   15 TiB   23 GiB  1005 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+43    hdd  14.57399   1.00000   15 TiB   23 GiB   1.1 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  177      up
+ 1   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 4   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 7   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+11    hdd  14.57399   1.00000   15 TiB   23 GiB   1.1 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  179      up
+14    hdd  14.57399   1.00000   15 TiB   23 GiB  1017 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  183      up
+17    hdd  14.57399   1.00000   15 TiB   23 GiB   985 MiB   1 KiB   79 MiB   15 TiB  0.15  1.02  179      up
+20    hdd  14.57399   1.00000   15 TiB   23 GiB   1.1 GiB   1 KiB   84 MiB   15 TiB  0.15  1.03  180      up
+23    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB  151 MiB   15 TiB  0.15  1.02  180      up
+26    hdd  14.57399   1.00000   15 TiB   23 GiB  1005 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  175      up
+29    hdd  14.57399   1.00000   15 TiB   23 GiB   981 MiB   1 KiB   74 MiB   15 TiB  0.15  1.02  185      up
+32    hdd  14.57399   1.00000   15 TiB   23 GiB   965 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+35    hdd  14.57399   1.00000   15 TiB   23 GiB   985 MiB   1 KiB   84 MiB   15 TiB  0.15  1.02  171      up
+38    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB   92 MiB   15 TiB  0.15  1.02  183      up
+39    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  171      up
+42    hdd  14.57399   1.00000   15 TiB   23 GiB   1.0 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  181      up
+ 2   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 5   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  174      up
+ 8   nvme   1.21289   1.00000  1.2 TiB   35 MiB   4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  166      up
+                        TOTAL  536 TiB  819 GiB    36 GiB  70 KiB  3.4 GiB  535 TiB  0.15                   
+MIN/MAX VAR: 0.02/1.03  STDDEV: 0.07
+
+======================================== [4] 2025-12-03 11:37:24
+=== OSD Disk Usage ===
+ID  CLASS  WEIGHT    REWEIGHT  SIZE     RAW USE  DATA     OMAP    META     AVAIL    %USE  VAR   PGS  STATUS
+ 9    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB  192 MiB   15 TiB  0.15  1.02  176      up
+12    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  183      up
+15    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  181      up
+19    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  178      up
+22    hdd  14.57399   1.00000   15 TiB   23 GiB  1.5 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  183      up
+25    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  173      up
+28    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  173      up
+31    hdd  14.57399   1.00000   15 TiB   23 GiB  1.5 GiB   1 KiB   92 MiB   15 TiB  0.16  1.03  182      up
+34    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  174      up
+37    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  181      up
+41    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  170      up
+44    hdd  14.57399   1.00000   15 TiB   23 GiB  1.5 GiB   1 KiB   74 MiB   15 TiB  0.16  1.03  182      up
+ 0   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+ 3   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 6   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+10    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  180      up
+13    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  182      up
+16    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  182      up
+18    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  175      up
+21    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  180      up
+24    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB  223 MiB   15 TiB  0.15  1.02  181      up
+27    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  178      up
+30    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  175      up
+33    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  183      up
+36    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   84 MiB   15 TiB  0.16  1.02  174      up
+40    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+43    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.15  1.02  177      up
+ 1   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 4   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 7   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+11    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  179      up
+14    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  183      up
+17    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   79 MiB   15 TiB  0.15  1.02  179      up
+20    hdd  14.57399   1.00000   15 TiB   23 GiB  1.5 GiB   1 KiB   84 MiB   15 TiB  0.16  1.02  180      up
+23    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB  192 MiB   15 TiB  0.16  1.02  180      up
+26    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  175      up
+29    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  185      up
+32    hdd  14.57399   1.00000   15 TiB   23 GiB  1.3 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  169      up
+35    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   84 MiB   15 TiB  0.15  1.02  171      up
+38    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   92 MiB   15 TiB  0.16  1.02  183      up
+39    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   74 MiB   15 TiB  0.15  1.02  171      up
+42    hdd  14.57399   1.00000   15 TiB   23 GiB  1.4 GiB   1 KiB   89 MiB   15 TiB  0.16  1.02  181      up
+ 2   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 5   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  174      up
+ 8   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  166      up
+                        TOTAL  536 TiB  832 GiB   49 GiB  70 KiB  3.5 GiB  535 TiB  0.15                   
+MIN/MAX VAR: 0.02/1.03  STDDEV: 0.07
+
+======================================== [5] 2025-12-03 11:38:11
+=== OSD Disk Usage ===
+ID  CLASS  WEIGHT    REWEIGHT  SIZE     RAW USE  DATA     OMAP    META     AVAIL    %USE  VAR   PGS  STATUS
+ 9    hdd  14.57399   1.00000   15 TiB   24 GiB  1.9 GiB   1 KiB  233 MiB   15 TiB  0.16  1.01  176      up
+12    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  183      up
+15    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  181      up
+19    hdd  14.57399   1.00000   15 TiB   24 GiB  1.9 GiB   1 KiB   79 MiB   15 TiB  0.16  1.01  178      up
+22    hdd  14.57399   1.00000   15 TiB   24 GiB  2.2 GiB   1 KiB   79 MiB   15 TiB  0.16  1.03  183      up
+25    hdd  14.57399   1.00000   15 TiB   24 GiB  1.9 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  173      up
+28    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  173      up
+31    hdd  14.57399   1.00000   15 TiB   24 GiB  2.2 GiB   1 KiB   97 MiB   15 TiB  0.16  1.03  182      up
+34    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  174      up
+37    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   84 MiB   15 TiB  0.16  1.02  181      up
+41    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  170      up
+44    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  182      up
+ 0   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+ 3   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 6   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+10    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  180      up
+13    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  182      up
+16    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  182      up
+18    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  175      up
+21    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   84 MiB   15 TiB  0.16  1.02  180      up
+24    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB  277 MiB   15 TiB  0.16  1.02  181      up
+27    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  178      up
+30    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  175      up
+33    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   84 MiB   15 TiB  0.16  1.02  183      up
+36    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  174      up
+40    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  169      up
+43    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  177      up
+ 1   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  169      up
+ 4   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 7   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  171      up
+11    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  179      up
+14    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  183      up
+17    hdd  14.57399   1.00000   15 TiB   24 GiB  1.9 GiB   1 KiB   79 MiB   15 TiB  0.16  1.01  179      up
+20    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  180      up
+23    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB  236 MiB   15 TiB  0.16  1.02  180      up
+26    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  175      up
+29    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  185      up
+32    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   89 MiB   15 TiB  0.16  1.02  169      up
+35    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   74 MiB   15 TiB  0.16  1.02  171      up
+38    hdd  14.57399   1.00000   15 TiB   24 GiB  2.1 GiB   1 KiB   97 MiB   15 TiB  0.16  1.02  183      up
+39    hdd  14.57399   1.00000   15 TiB   24 GiB  2.0 GiB   1 KiB   79 MiB   15 TiB  0.16  1.02  171      up
+42    hdd  14.57399   1.00000   15 TiB   24 GiB  2.2 GiB   1 KiB   74 MiB   15 TiB  0.16  1.03  181      up
+ 2   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  173      up
+ 5   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  174      up
+ 8   nvme   1.21289   1.00000  1.2 TiB   35 MiB  4.8 MiB   1 KiB   30 MiB  1.2 TiB  0.00  0.02  166      up
+                        TOTAL  536 TiB  856 GiB   74 GiB  70 KiB  3.5 GiB  535 TiB  0.16                   
+MIN/MAX VAR: 0.02/1.03  STDDEV: 0.07
